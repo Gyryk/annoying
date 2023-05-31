@@ -1,0 +1,41 @@
+#annoy
+{
+    position: relative;
+    top: 400px;
+    left: 50%;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body
+{
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+    height:100%;
+}
+
+.darken
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(01, 01, 01, 0.1);
+}
+
+button
+{
+    transform: translate(-50%, -50%);
+    height: 4rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 6px 10px black;
+    background-color: rgba(17, 17, 17, 0.9);
+    color: #fffcdf;
+}
