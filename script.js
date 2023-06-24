@@ -12,7 +12,7 @@ function myfunc()
         'Nope not there!', "I'm getting tired!", "I can't do this all day", "Where are you", "It's so easy",
         "FFS DO IT ALREADY", "GET OVER HERE", "Wow you are bad "]
 
-    document.getElementById('annoy').innerHTML = phrases[randint(phrases.length)]
+    document.getElementById('annoyText').innerHTML = phrases[randint(phrases.length)]
 
     num1 = randint(Math.floor(window.innerHeight - heightOffset))
     num2 = randint(Math.floor(window.innerWidth - widthOffset))
